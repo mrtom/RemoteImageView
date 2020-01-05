@@ -83,7 +83,7 @@ struct RemoteImageView_Previews: PreviewProvider {
   @available(iOS 13.0, *)
   static var previews: some View {
     let imageFetcher = RemoteImageFetcher(
-      url: URL(
+      from: URL(
         string: "https://koenig-media.raywenderlich.com/uploads/2019/12/sharpie.png"
       )!
     )
